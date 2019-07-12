@@ -1,0 +1,12 @@
+h1 {font-size: 50px;
+    color: rgb(87, 5, 87);}
+
+/*} Para cambiar el tamaño de una imagen en específico, en HTML se debió haber nombrado la imagen con la etiqueta "class" quedando así <img class="imagen1" src="bla"... Y despúes en CSS, llamar a esa imagen con el nombre tal cual con mayúsculas y minúsculas. Quedando así: */
+.CodeOrg{width: 300px;}
+.FreeCodeCamp{width:300px}
+.Codecademy{width:300px}
+
+*/Para quitar el underline de los links:*/
+a{text-decoration:none;
+color:#000;}
+

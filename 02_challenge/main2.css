@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+text-decoration: none;
+color: black;
+/*además de div, hay header, nav, main, section, article, footer. Son igual que los div pero ya con nombre, para que no te condundas. A estas también les puedes poner class.
+
+La estructura generalmente es así:
+<header
+main
+    section
+        article
+            div
+    section
+        article
+    section
+        article.
+...........
+Como se debería hacer lo de Google:
+Hizo tres cajas. La primera es la que dice Imagen, Gmail, el icono de app y el de perfil. Guardó los iconos y en el código, hizo que todos estos elementos sean links.
+
+Quitar underline de los links, para hacer eso es hacerlo específicamente en los links. Debes poner class al div que contiene gmail, imagenes y los dos iconos. Y con la siguiente codigo
+.nav-container > a{ -->esto señala todas las "as" que tiene adentro.
+
+MANDAR LINKS hasta la derecha:
+    Se puede utilizar tanto margin como padding. Margin se va a mover todo el rectángulo y con padding solo el contenido d eadentro.
+
+
+header{
+    borde: solido 1px red;
+    width:100%
+    height:200
+
+nav{
+
+main{
+
+    
+    */
+
+}
+.links{
+    text-decoration: none;
+    border: solid 1px white;
+    height: 30px;
+    display: inline-block;
+    margin-top: 16px;
+    margin-left: 980px;
+    }
+
+.GoogleAppIcon{
+    width: 30px;
+    display: inline-block;
+    margin-left: 1130px;
+}
+
+.GoogleAccountIcon{
+    width:30px;
+    height: 32px;
+    display: inline-block;
+}
+
+.Google{
+    border: solid 1px white;
+    padding: 109px 0 0;
+    width: 272px;
+    margin-left: 500px;
+    }
+
+.barra{
+    border: solid 1px white;
+    display: inline-block;
+    width: 482px;
+    height: 44px;
+    margin-left: 200px;
+    }
+
+.botones{
+    border: solid 1px white;
+    display: inline-block;
+    width: 487px;
+    height: 58px;
+    padding: 18px 0 0;
+    margin-left: 400px;
+}
+
+.leyenda{
+    border: solid 1px white;
+      height: 88px;
+    margin-left: 500px;
+        display: inline-block;
+    }

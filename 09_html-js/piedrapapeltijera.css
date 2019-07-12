@@ -1,0 +1,293 @@
+.container{
+    /* border: solid 1px black; */
+    width: 100%;
+    height: 589px;
+    background-image: url("./fondo.png");
+    display: flex;
+    flex-direction: column;    
+}
+
+.containerSup{
+    /* border: solid 1px black; */
+    width: 100%;
+    height:10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+}
+
+.containerMedio{
+    width: 100%;
+    height:10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputGanador{
+    width: 300px;
+    height: 30px;
+}
+
+.containerInf{
+    /* border: solid 1px black; */
+    width: 100%;
+    height:80%;
+    display: flex;
+    justify-content: space-between;
+    }
+
+/*--------------------------------------CONTAINER IZQUIERDO-------------------------------------- */
+.containerIzq{
+    /* border: solid 1px blue; */
+    background: rgba(247, 2, 2, 0.123);
+    border-radius: 40%;
+    width: 50%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.containerManoIzq{
+    /* border: solid 1px blue; */
+    width: 500px;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+/*PIEDRA IZQ*/
+.containerPiedra-Izq{
+    /* border: solid 1px blue; */
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+} 
+
+.containerImg1-Izq{
+    /* border: solid 1px blue; */
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerButton1-Izq{
+    /* border: solid 1px red; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.button1-Izq{
+    width: 70%;
+    height: 30px;
+    background: rgb(175, 180, 26);
+    border: #B0B41A;
+    border-radius: 20%;
+} 
+
+/*PAPEL IZQ */
+.containerPapel-Izq{
+    /* border: solid 1px blue; */
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerImg2-Izq{
+    /* border: solid 1px blue; */
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerButton2-Izq{
+    /* border: solid 1px red; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.button2-Izq{
+    width: 70%;
+    height: 30px;
+    background: rgb(175, 180, 26);
+    border: #B0B41A;
+    border-radius: 20%;
+}
+
+/*TIJERA IZQ */
+.containerTijera-Izq{
+    /* border: solid 1px blue; */
+    width: 33%;
+    height: 100%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerImg3-Izq{
+    /* border: solid 1px blue; */
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerButton3-Izq{
+    /* border: solid 1px red; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.button3-Izq{
+    width: 70%;
+    height: 30px;
+    background: rgb(175, 180, 26);
+    border: #B0B41A;
+    border-radius: 20%;
+}  
+
+/*--------------------------------------CONTAINER DERECHO-------------------------------------- */
+.containerDer{
+    /* border: solid 1px blue; */
+    background: rgba(5, 1, 250, 0.123);
+    border-radius: 40%;
+    width: 50%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerManoDer{
+    /* border: solid 1px blue; */
+    width: 500px;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    
+} 
+
+/*PIEDRA DER */
+.containerPiedra-Der{
+    /* border: solid 1px blue; */
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+} 
+
+.containerImg1-Der{
+    /* border: solid 1px blue; */
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerButton1-Der{
+    /* border: solid 1px red; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.button1-Der{
+    width: 70%;
+    height: 30px;
+    background: rgb(175, 180, 26);
+    border: #B0B41A;
+    border-radius: 20%;
+}
+
+/*PAPEL DER */
+.containerPapel-Der{
+    /* border: solid 1px blue; */
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerImg2-Der{
+    /* border: solid 1px blue; */
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerButton2-Der{
+    /* border: solid 1px red; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.button2-Der{
+    width: 70%;
+    height: 30px;
+    background: rgb(175, 180, 26);
+    border: #B0B41A;
+    border-radius: 20%;
+}
+
+/*TIJERA DER */
+.containerTijera-Der{
+    /* border: solid 1px blue; */
+    width: 33%;
+    height: 100%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerImg3-Der{
+    /* border: solid 1px blue; */
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerButton3-Der{
+    /* border: solid 1px red; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.button3-Der{
+    width: 70%;
+    height: 30px;
+    background: rgb(175, 180, 26);
+    border: #B0B41A;
+    border-radius: 20%;
+} 

@@ -1,0 +1,18 @@
+/*Para que cargue lo que haces como custum, debes poner !important. pero trata de usuarlo muy poco porque lugo hay problemas cuando pones varios important.*/
+.custom-link-color{
+    color: purple !important;
+}
+
+.custom-carousel{
+
+}
+
+.img1{
+    weight: 800px;
+    height: 445pxpx;
+}
+
+.container{
+   border: solid 1px black;
+   
+}

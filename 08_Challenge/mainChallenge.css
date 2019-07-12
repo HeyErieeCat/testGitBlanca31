@@ -1,0 +1,40 @@
+
+.custom-link-nav-color{
+    color: white !important;
+}
+
+.logo-navbar{
+    width: 35px;
+}
+
+/*termina estilos navbar*/
+
+/*Usar el tipo de medida llamado vh viewport high para que se ajuste la imagen a lo alto, o lo que se ve en el navegador */
+
+.img-custom-car{
+    width: 100%;
+    height:100vh;
+}
+
+/* .custom-container{
+    /* border: solid 1px black;
+    max-width: 100%;
+    background-color: #FF99CC; */
+} */
+
+.card-body >a {
+    border-radius: 0;
+    border: solid 1px #FAC106;
+    background-color: #FAC106;
+
+}
+
+/*Cuando pones encima el puntero en el botón, y cambie de color*/
+.card-body >a:hover {
+    background-color: #F993C6;
+    border: solid 1px #F993C6;
+}
+
+.card-body h5 {
+   color: #F993C6;
+}

@@ -1,0 +1,12 @@
+body{
+    width: 100%;
+}
+/* ---------inicia nav------- */
+
+.card-container{
+    border: solid 2px orangered;
+    /* ----agregamos esto desde BS------ */
+    /* display: flex;
+    justify-content: space-around;
+    margin-top: 2em; */
+}
